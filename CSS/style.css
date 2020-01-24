@@ -1,0 +1,175 @@
+@font-face {
+  src: url(Sacramento-Regular.ttf);
+  font-family: sacramento;
+}
+
+body
+{
+  margin:0;
+  text-align: center;
+
+}
+h1{
+
+ font-family: sacramento;
+ font-weight: 800;
+ font-size: 5.624rem;
+ color: #66BFBF;
+ margin: 100px auto 0 auto;
+}
+/* 1em=100%=16px*/
+#Heading{
+  font-family: 'Vollkorn', serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight:normal;
+  margin-top: 0;
+}
+
+p{
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  font-size: 1rem;
+
+
+}
+h2{
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 20px;
+}
+h3{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+hr{
+  border-style: hidden;
+  border-top-style: dotted;
+  width: 5%;
+  border-width: 7px;
+  border-color: silver;
+}
+
+.top-container{
+background-color: #e0ebe8;
+padding-top: 100px;
+position: relative;
+}
+.middle-container{
+  margin: 100px auto;
+}
+.bottom-container{
+  height: 200px;
+  background-color:#66BFBF;
+  position: relative;
+
+}
+.profile{
+  width: 40%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align:left;
+  line-height: 2;
+
+}
+.what-i-design{
+  width: 25%;
+  border-radius: 150px;
+  float: left;
+  margin-right: 30px
+}
+.what-i-Develop{
+  width: 25%;
+  border-radius: 50px;
+  float: right;
+  margin-left: 30px;
+
+
+}
+#bottom-cloud{
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+#top-cloud{
+  position: absolute;
+  right: 200px;
+  top:70px;
+}
+#my-picture{
+  border-radius: 200px;
+}
+.footer-link1{
+
+  color: #11999E;
+  position: absolute;
+  top:50px;
+  left: 500px;
+  right: 500px;
+}
+.footer-link2{
+  color: #11999E;
+  position: absolute;
+  top:50px;
+  left: 500px;
+}
+.footer-link3{
+  color: #11999E;
+  position: absolute;
+  top:50px;
+  right: 500px;
+}
+a{
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6
+}
+.copyrights{
+  color: #EAF6F6;
+  position: absolute;
+  bottom: 50px;
+  right: 500px;
+  left: 500px;
+  font-size: 0.75em;
+}
+.contact-me{
+  line-height: 2;
+  width: 50%;
+  margin: 100px auto;
+}
+.contact-message{
+  margin-bottom: 100px;
+}
+.button{
+color: rgb(255, 255, 255);
+font-family: 'Vollkorn', serif;
+text-decoration: none;
+font-size: 20px;
+padding: 17px;
+text-shadow: 0px -1px 13px rgba(30, 30, 30, 0.8);
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+background: rgb(17, 205, 212);
+background: -moz-linear-gradient(72deg, rgb(17, 205, 212) 24%, rgb(17, 153, 158) 70%);
+background: -webkit-linear-gradient(72deg, rgb(17, 205, 212) 24%, rgb(17, 153, 158) 70%);
+background: -o-linear-gradient(72deg, rgb(17, 205, 212) 24%, rgb(17, 153, 158) 70%);
+background: -ms-linear-gradient(72deg, rgb(17, 205, 212) 24%, rgb(17, 153, 158) 70%);
+background: linear-gradient(342deg, rgb(17, 205, 212) 24%, rgb(17, 153, 158) 70%);
+-webkit-box-shadow: 0px 0px 1px rgba(50, 50, 50, 0.52);
+-moz-box-shadow:    0px 0px 1px rgba(50, 50, 50, 0.52);
+box-shadow:         0px 0px 1px rgba(50, 50, 50, 0.52);
+
+}
